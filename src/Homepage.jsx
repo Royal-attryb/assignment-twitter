@@ -9,10 +9,10 @@ export default function Homepage () {
 
     function handleTweetPost (value) {
         // console.log(value);
-        tweets.unshift(value);
+        let tweetObject = {'tweet': value, 'time': new Date()};
+        tweets.unshift(tweetObject);
         setTweets([...tweets]);
-        console.log(tweets);
-        
+        // console.log(tweets);
     }
 
     return (
