@@ -4,7 +4,8 @@ import { useState } from 'react';
 
 export default function Homepage () {
 
-    const [tweets, setTweets] = useState([]);
+    let time = new Date();
+    const [tweets, setTweets] = useState([{'tweet': "hello", 'time': time},{'tweet': "hello", 'time': time}, {'tweet': "hello", 'time': time} ]);
     // console.log(tweets);
 
     function handleTweetPost (value) {
