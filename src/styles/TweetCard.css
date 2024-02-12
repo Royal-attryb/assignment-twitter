@@ -1,0 +1,46 @@
+.card-wrapper {
+    display: flex;
+    background: rgb(244, 239, 239);
+    border-radius: 10px;
+    padding: 1rem 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    background: white;
+    /* border: 1px solid red; */
+    border-radius: 30px;
+}
+
+img {
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.heading {
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.tweet {
+    text-wrap: wrap;
+    word-break: break-word;
+    display: inline-block;
+}
+
+.time {
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-style: italic;
+}
